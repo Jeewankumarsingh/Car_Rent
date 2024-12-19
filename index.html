@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CarRent</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+</head>
+
+<body>
+
+  <!--Navbar -->
+
+  <nav class="navbar sticky-top navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="carlogo.svg" alt="">
+      </a>
+
+      <div class="d-block d-lg-none ms-auto">
+        <span class="navbar-text">
+          <i class="ri-phone-fill"></i>
+          <span>878-9671-4455</span>
+        </span>
+      </div>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#">Reservation</a>
+          <a class="nav-link" href="#">Service</a>
+          <a class="nav-link" href="#">Terms</a>
+          <a class="nav-link" href="#">About Us</a>
+          <a class="nav-link" href="#">Contacts</a>
+        </div>
+      </div>
+
+      <div class="d-none d-lg-block ms-auto">
+        <span class="navbar-text">
+          <i class="ri-phone-fill"></i>
+          <span>878-9671-4455</span>
+        </span>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <div class="section">
+    <div class="container-fluid">
+      <div class="col-lg-12 col-12">
+        <div class="header">
+
+          <div class="headerbody">
+            <div class="check">
+              <label for="pickup">PICK UP</label><br>
+              <input list="offices" placeholder="Choose office">
+              <i class="ri-map-pin-2-fill"></i>
+
+
+              <datalist id="offices">
+                <option value="">Vermont</option>
+                <option value="">Springs LA</option>
+                <option value="">West Los Angeles</option>
+              </datalist>
+            </div>
+            <div class="check1">
+              <input type="checkbox">
+              <label for="checkbox">Return to the same loacation</label>
+            </div>
+            <div class="check">
+              <input type="text" placeholder="Pickup Date">
+              <i style="top: 8px; left: 6px;" class="ri-calendar-2-line"></i>
+            </div>
+            <div class="check">
+              <label for="retrun">RETURN</label><br>
+              <input type="text" placeholder="Return Date">
+              <i class="ri-calendar-2-line"></i>
+            </div>
+            <button>FIND A VICHILE <i class="ri-arrow-right-line"></i></button>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!-- CHOOSE YOUR CAR -->
+
+      <div class="container">
+        <div class="choose">
+          <p class="choosehead">WHY CHOOSE US</p>
+          <div class="row">
+
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="card">
+                <div class="cardbody">
+                  <div class="logo">
+                    <i class="ri-thumb-up-line"></i>
+                  </div>
+                  <div class="logobody">
+                    <h5>Outstanding Services</h5>
+                    <p>Lorem ipsum dolor sit amet, adipiscing elit. Interdum et malesuada fames ac ante ipsum primis
+                      in faucibus. Maecenas lobortis vestibulum ipsum vitae pellentesque.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="card">
+                <div class="cardbody">
+                  <div class="logo">
+                    <i class="ri-award-fill"></i>
+                  </div>
+                  <div class="logobody">
+                    <h5>Outstanding Services</h5>
+                    <p>Lorem ipsum dolor sit amet, adipiscing elit. Interdum et malesuada fames ac ante ipsum primis
+                      in faucibus. Maecenas lobortis vestibulum ipsum vitae pellentesque.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="card">
+                <div class="cardbody">
+                  <div class="logo">
+                    <i class="ri-road-map-line"></i>
+                  </div>
+                  <div class="logobody">
+                    <h5>Outstanding Services</h5>
+                    <p>Lorem ipsum dolor sit amet, adipiscing elit. Interdum et malesuada fames ac ante ipsum primis
+                      in faucibus. Maecenas lobortis vestibulum ipsum vitae pellentesque.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="card">
+                <div class="cardbody">
+                  <div class="logo">
+                    <i class="ri-wheelchair-line"></i>
+                  </div>
+                  <div class="logobody">
+                    <h5>Outstanding Services</h5>
+                    <p>Lorem ipsum dolor sit amet, adipiscing elit. Interdum et malesuada fames ac ante ipsum primis
+                      in
+                      faucibus. Maecenas lobortis vestibulum ipsum vitae pellentesque.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="card">
+                <div class="cardbody">
+                  <div class="logo">
+                    <i class="ri-exchange-funds-fill"></i>
+                  </div>
+                  <div class="logobody">
+                    <h5>Outstanding Services</h5>
+                    <p>Lorem ipsum dolor sit amet, adipiscing elit. Interdum et malesuada fames ac ante ipsum primis
+                      in
+                      faucibus. Maecenas lobortis vestibulum ipsum vitae pellentesque.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="card">
+                <div class="cardbody">
+                  <div class="logo">
+                    <i class="ri-road-map-line"></i>
+                  </div>
+                  <div class="logobody">
+                    <h5>Outstanding Services</h5>
+                    <p>Lorem ipsum dolor sit amet, adipiscing elit. Interdum et malesuada fames ac ante ipsum primis
+                      in
+                      faucibus. Maecenas lobortis vestibulum ipsum vitae pellentesque.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+      <!-- CATEGORIES -->
+
+      <div class="categories">
+        <div class="col-lg-12">
+          <p class="vechile">VEHICLE CATEGORIES</p>
+        </div>
+        <div class="container">
+          <div class="vechilebody">
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <div class="card rounded-0">
+                  <div class="cardbody">
+
+                    <div class="row">
+                      <div class="col-lg-8 col-sm-8 col-8">
+                        <div class="vechilebody2">
+                          <p class="head1">convertible</p>
+                          <p class="head2">Mercedes S-Class or <br> Similar</p>
+                          <div class="price">
+                            <p class="head3"><span>FROM</span><br>$900.00<span>/DAY</span></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-sm-4 col-4">
+                        <div class="logo">
+                          <i class="ri-sofa-fill"><span> 2 Seats</span></i>
+                          <i class="ri-map-2-line"><span> 4 Doors</span></i>
+                          <i class="ri-slack-fill"><span> A/C</span></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <img src="car1.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <div class="card rounded-0">
+                  <div class="cardbody">
+                    <div class="row">
+                      <div class="col-lg-8 col-sm-8 col-8">
+                        <div class="vechilebody2">
+                          <p class="head1">Minivan</p>
+                          <p class="head2">Volkswagen California <br> or Similar</p>
+                          <div class="price">
+                            <p class="head3"><span>FROM</span><br>$1,180.00<span>/DAY</span></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-sm-4 col-4">
+                        <div class="logo">
+                          <i class="ri-sofa-fill"><span> 6 Seats</span></i>
+                          <i class="ri-briefcase-fill"><span> 2 Bags</span></i>
+                          <i class="ri-map-2-line"><span> 4 Doors</span></i>
+                          <i class="ri-slack-fill"><span> A/C</span></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <img src="car2.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <div class="card rounded-0">
+                  <div class="cardbody">
+                    <div class="row">
+                      <div class="col-lg-8 col-sm-8 col-8">
+                        <div class="vechilebody2">
+                          <p class="head1">Speciality</p>
+                          <p class="head2">Ferrari F12 Berlinetta<br> or Similar</p>
+                          <div class="price">
+                            <p class="head3"><span>FROM</span><br>$589.00<span>/DAY</span></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-sm-4 col-4">
+                        <div class="logo">
+                          <i class="ri-sofa-fill"><span> 2 Seats</span></i>
+                          <i class="ri-map-2-line"><span> 4 Doors</span></i>
+                          <i class="ri-slack-fill"><span> A/C</span></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <img src="car3.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-lg-4 col-md-6">
+                <div class="card rounded-0">
+                  <div class="cardbody">
+                    <div class="row">
+                      <div class="col-lg-8 col-sm-8 col-8">
+                        <div class="vechilebody2">
+                          <p class="head1">convertible</p>
+                          <p class="head2">Mercedes S-Class or <br> Similar</p>
+                          <div class="price">
+                            <p class="head3"><span>FROM</span><br>$900.00<span>/DAY</span></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-sm-4 col-4">
+                        <div class="logo">
+                          <i class="ri-sofa-fill"><span> 2 Seats</span></i>
+                          <i class="ri-map-2-line"><span> 4 Doors</span></i>
+                          <i class="ri-slack-fill"><span> A/C</span></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <img src="car4.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <div class="card rounded-0">
+                  <div class="cardbody">
+                    <div class="row">
+                      <div class="col-lg-8 col-sm-8 col-8">
+                        <div class="vechilebody2">
+                          <p class="head1">Minivan</p>
+                          <p class="head2">Volkswagen California <br> or Similar</p>
+                          <div class="price">
+                            <p class="head3"><span>FROM</span><br>$1,180.00<span>/DAY</span></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-sm-4 col-4">
+                        <div class="logo">
+                          <i class="ri-sofa-fill"><span> 6 Seats</span></i>
+                          <i class="ri-briefcase-fill"><span> 2 Bags</span></i>
+                          <i class="ri-map-2-line"><span> 4 Doors</span></i>
+                          <i class="ri-slack-fill"><span> A/C</span></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <img src="car5.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <div class="card rounded-0">
+                  <div class="cardbody">
+                    <div class="row">
+                      <div class="col-lg-8 col-sm-8 col-8">
+                        <div class="vechilebody2">
+                          <p class="head1">Speciality</p>
+                          <p class="head2">Ferrari F12 Berlinetta<br> or Similar</p>
+                          <div class="price">
+                            <p class="head3"><span>FROM</span><br>$589.00<span>/DAY</span></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-sm-4 col-4">
+                        <div class="logo">
+                          <i class="ri-sofa-fill"><span> 2 Seats</span></i>
+                          <i class="ri-map-2-line"><span> 4 Doors</span></i>
+                          <i class="ri-slack-fill"><span> A/C</span></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <img src="car6.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- CLIENTS -->
+
+      <div class="container">
+        <div class="client">
+          <div class="col-lg-12">
+            <p class="clienthead">WHAT OUR CLIENTS SAY</p>
+            <div class="clientbody">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="card">
+                    <div class="cardbody">
+                      <div class="logo">
+                        <img src="cli1.jpg" alt="">
+                      </div>
+                      <p>John Doe</p>
+                      <p class="clientpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolorem
+                        officiis officia laboriosam fugit consectetur repellendus dolorum, nisi commodi quam at possimus
+                        quisquam pariatur sapiente culpa aut deserunt, perspiciatis quas?
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex quod, eos sint error ducimus
+                        temporibus. Omnis corrupti ipsa at necessitatibus.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="card">
+                    <div class="cardbody">
+                      <div class="logo">
+                        <img src="cli2.jpg" alt="">
+                      </div>
+                      <p>John Doe</p>
+                      <p class="clientpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolorem
+                        officiis officia laboriosam fugit consectetur repellendus dolorum, nisi commodi quam at possimus
+                        quisquam pariatur sapiente culpa aut deserunt, perspiciatis quas?
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex quod, eos sint error ducimus
+                        temporibus. Omnis corrupti ipsa at necessitatibus.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="card">
+                    <div class="cardbody">
+                      <div class="logo">
+                        <img src="cli3.jpg" alt="">
+                      </div>
+                      <p>John Doe</p>
+                      <p class="clientpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolorem
+                        officiis officia laboriosam fugit consectetur repellendus dolorum, nisi commodi quam at possimus
+                        quisquam pariatur sapiente culpa aut deserunt, perspiciatis quas?
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex quod, eos sint error ducimus
+                        temporibus. Omnis corrupti ipsa at necessitatibus.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ABOUT -->
+
+      <div class="container-fluid">
+        <div class="about">
+          <div class="row">
+            <div class="col-lg-6 col-sm-12 col-12">
+              <div class="aboutbody">
+                <p class="abouthead">What Do You Know About Us</p>
+                <p>Vestibulum id odio a erat gravida sollicitudin. Quisque porttitor turpis sit amet dolor imperdiet, et
+                  molestie tellus suscipit. Ut nec odio nisl. Quisque malesuada tortor non erat fermentum, sed
+                  sollicitudin nisl sodales. Pellentesque faucibus viverra massa, vitae tempus nisi venenatis eu. Proin
+                  mauris tellus, egestas ac tempor vitae, luctus lobortis nisl. Vivamus convallis gravida quam</p>
+                <button>OUR COMPANY</button>
+              </div>
+            </div>
+            <div class="col-lg-6 col-sm-12 col-12">
+              <img src="about.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- QUESTION -->
+
+      <div class="question">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-6">
+              <p>HAVE A QUESTIONS? FEEL FREE TO ASK...</p>
+            </div>
+            <div class="col-lg-3">
+              <a href=""><i class="ri-phone-fill"></i><span>+1878-9674-4455</span></a>
+            </div>
+            <div class="col-lg-3">
+              <button> <i class="ri-message-line"></i> FEEDBACK</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- MAP -->
+
+      <div class="map">
+        <div class="conatiner-fluid">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d72859.80146432134!2d77.40607414742341!3d23.261987961919985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c4100419be3e3%3A0x7027d57db489891d!2sREALTHINK%20TECHNOLOGY!5e0!3m2!1sen!2sin!4v1727944768464!5m2!1sen!2sin"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+      </div>
+
+      <!-- FOOTER -->
+
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="abutrentel">
+                <p class="footerhead"><span>ABOUT</span> CAR RENTAL</p>
+                <p>Motors Automotive we repair domestic and foreign cars. We service the Los Angeles Metro Area for
+                  all
+                  Automotive Service & Repair.</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="contactinfo">
+                <p class="footerhead">CONTACT INFO</p>
+                <p><span>Car Rental Office</span>: (323)938-5798</p>
+                <p><span>Vehicle Repair service</span>: (888)637-7262</p>
+                <p class="email"><span>Email</span>: Info@styleixthemes.com</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="serices">
+                <p class="footerhead">SERVICES HOURS</p>
+                <p><span>Monday-Friday</span>: 09:00AM - 09:00PM</p>
+                <p><span>Saturday</span>: 09:00AM - 07:00PM</p>
+                <p><span>Sunday</span>: Closed</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="network">
+                <p class="footerhead">SOCIAL NETWORK</p>
+                <div class="logo">
+                  <i class="ri-facebook-circle-fill"></i>
+                  <i class="ri-twitter-fill"></i>
+                  <i class="ri-instagram-line"></i>
+                  <i class="ri-linkedin-box-fill"></i>
+                  <i class="ri-youtube-fill"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="footer1">
+            <div class="row">
+              <div class="col-lg-6 col-md-8">
+                <p>Copyright &copy; 2024. <span>Motors</span> - Theme by <span>JeewanSingh</span></p>
+              </div>
+              <div class="col-lg-6 col-md-4">
+                <div class="logo">
+                  <i class="ri-facebook-circle-fill"></i>
+                  <i class="ri-twitter-fill"></i>
+                  <i class="ri-instagram-line"></i>
+                  <i class="ri-linkedin-box-fill"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

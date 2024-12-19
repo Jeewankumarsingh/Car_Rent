@@ -1,0 +1,691 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Navbar */
+
+.navbar {
+    padding: 20px 10%;
+    background-color: #23393d;
+}
+
+.navbar .navbar-nav{
+    width: 85%;
+}
+.navbar .navbar-nav .nav-link {
+    color: #fff;
+    flex: 1 1 auto;
+    font-weight: 700;
+}
+
+.navbar .collapse{
+    justify-content: space-evenly;
+}
+
+.navbar .navbar-text i {
+    color: #23393d;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #f0c540;
+}
+
+.navbar .navbar-text span{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.navbar-toggler {
+    background-color: white !important;
+    border: none !important;
+}
+
+/* header */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 70px;
+    background-image: url('Banner.jpg');
+    background-size: cover;
+    background-position-x: center;
+}
+
+.header .headerbody {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    width: 25%;
+    background-color: #f0c540;
+}
+
+.headerbody .check {
+    position: relative;
+    width: 100%;
+}
+
+.headerbody .check1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerbody .check1 input {
+    border: none;
+    width: 20px;
+    height: 20px;
+}
+
+.headerbody .check1 label {
+    color: #2a4045;
+    font-size: 16px;
+}
+
+.headerbody .check input {
+    width: 90%;
+    height: 35px;
+    padding-left: 25px;
+    border: none;
+    position: relative;
+}
+
+.headerbody .check label {
+    color: #2a4045;
+    margin-bottom: 5px;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -.5px;
+}
+
+.headerbody .check i {
+    position: absolute;
+    left: 3px;
+    top: 37px;
+    color: rgb(117 117 117);
+}
+
+.headerbody button {
+    position: relative;
+    width: 60%;
+    height: 40px;
+    color: white;
+    background-color: #2a4045;
+    font-family: Montserrat, Arial;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.headerbody button i {
+    position: absolute;
+    right: 5px;
+    top: 8px;
+    color: #fff;
+}
+
+/* why choose us */
+
+.choose {
+    width: 80%;
+    margin: 40px auto;
+}
+
+
+.choose .choosehead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 31px;
+    font-weight: 700;
+    color: #2a4045;
+}
+
+.choose .card {
+    border: none;
+    margin-bottom: 30px;
+}
+
+.choose .card .cardbody {
+    display: flex;
+    padding: 10px;
+
+}
+
+.choose .card .cardbody i {
+    font-size: 31px;
+    border-radius: 50%;
+    padding: 8px;
+    color: #fff;
+    background-color: #f0c540;
+}
+
+.choose .card .cardbody .logobody {
+    padding-left: 10px;
+}
+
+.choose .card .cardbody .logobody h5 {
+    font-weight: 700;
+    color: #2a4045;
+}
+
+.choose .card .cardbody .logobody p {
+    font-weight: 100;
+    font-size: 13px;
+    text-align: justify;
+}
+
+/* vechile catogries */
+
+.categories {
+    background-image: url(cars_bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 30px 0;
+}
+
+.categories .vechile {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+    padding: 30px 0;
+}
+
+.vechilebody {
+    width: 85%;
+    margin: auto;
+}
+
+.vechilebody .card {
+    margin-bottom: 30px;
+    height: 95%;
+}
+
+.vechilebody .card:hover {
+    background-color: #f0c540;
+}
+
+.vechilebody .card .cardbody {
+    padding: 30px;
+}
+
+.vechilebody .card .cardbody img {
+    padding-top: 20px;
+    width: 100%;
+}
+
+.vechilebody .cardbody .vechilebody2 {
+    line-height: 15px;
+}
+
+.vechilebody .card .cardbody .logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.vechilebody .card .cardbody .logo i {
+    font-size: 18px;
+    line-height: 32px;
+    color: #f0c540;
+}
+
+.vechilebody .card:hover .cardbody .logo i {
+    color: #23393d;
+}
+
+.vechilebody .card .cardbody .logo i span {
+    color: #777777;
+    font-size: 14px;
+}
+
+.vechilebody .cardbody .head1 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #2a4045;
+}
+
+.vechilebody .cardbody .head2 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #000;
+}
+
+.vechilebody .cardbody .price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0c540;
+    color: #fff;
+    width: 98%;
+    line-height: 20px;
+}
+
+.vechilebody .card:hover .price {
+    background-color: #23393d;
+}
+
+.vechilebody .cardbody .price .head3 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.vechilebody .cardbody .price span {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+/* WHAT OUT CLIENTS SAY */
+
+.client {
+    width: 85%;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.client .clienthead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 31px;
+    font-weight: 700;
+    color: #2a4045;
+    padding-bottom: 30px;
+}
+
+.client .clientbody .cardbody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.clientbody .cardbody img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.clientbody .cardbody .clientpara {
+    font-weight: 200;
+}
+
+.clientbody .cardbody .clientpara {
+    color: #777777;
+    font-size: 14px;
+}
+
+
+/* ABOUT US */
+
+
+.about .col-lg-6{
+    padding: 0;
+    margin: 0;
+}
+
+.about {
+    width: 99%;
+}
+.about img{
+    width: 100%;
+}
+
+.aboutbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 40px;
+    padding-left: 25%;
+    background-color: #23393d;
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.aboutbody .abouthead{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.aboutbody p{
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: .5px;
+    line-height: 25px;
+}
+
+.aboutbody button{
+    font-size: 17px;
+    font-weight: 700;
+    padding: 10px;
+    width: 33%;
+    color: #23393d;
+    background-color: #f0c540;
+    border: none;
+    border-radius: 4px;
+
+}
+
+/* QUESTIONS */
+
+.question {
+    margin: auto;
+    padding: 40px 12%;
+    background-color: #f0c540;
+}
+
+.question p {
+    font-size: 25px;
+    font-weight: 700;
+    color: #2a4045;
+}
+
+.question a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.question a i {
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 9px;
+}
+
+.question a span {
+    color: #23393d;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.question button {
+    border: 2px solid #fff;
+    padding: 10px;
+    font-size: 15px;
+    background: transparent;
+    width: 55%;
+    border-radius: 4px;
+}
+
+.question button i {
+    color: #23393d;
+    font-size: 15px;
+}
+
+/* FOOTER */
+
+.footer {
+    margin: auto;
+    background-color: #23393d;
+    color: #fff;
+    padding: 50px;
+}
+
+.footer .abutrentel .footerhead span {
+    color: #f0c540;
+}
+
+.footer .row .footerhead {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 15px;
+
+}
+
+.footer .abutrentel {
+    padding: 35px;
+}
+
+.footer .abutrentel p {
+    font-size: 13px;
+    margin: 0;
+}
+
+.footer .contactinfo {
+    padding: 35px;
+}
+
+.footer .contactinfo p {
+    font-size: 13px;
+    margin: 0;
+}
+
+.footer .contactinfo span {
+    font-weight: 700;
+    color: #fff;
+}
+
+.footer .contactinfo .email {
+    color: #f0c540;
+}
+
+.footer .serices {
+    padding: 35px;
+}
+
+.footer .serices p {
+    font-size: 13px;
+    margin: 0;
+}
+
+.footer .serices span {
+    font-weight: 700;
+}
+
+.footer .network {
+    padding: 35px;
+}
+
+.footer .network p {
+    font-size: 13px;
+    margin: 0;
+}
+
+.footer .network i {
+    font-size: 20px;
+    margin: 1px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #ffffff3f;
+}
+
+.footer hr {
+    margin: auto;
+    width: 95%;
+    margin-bottom: 40px;
+}
+
+.footer .footer1 {
+    margin: auto;
+    width: 95%;
+    font-size: 13px;
+    color: #888;
+}
+
+.footer .footer1 span {
+    color: #f0c540;
+}
+
+.footer .footer1 .logo {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.footer .footer1 .logo i {
+    color: #f0c540;
+    font-size: 17px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .navbar .navbar-text span{
+        display: none;
+    }
+    .navbar .navbar-text i{
+        margin-right: 20px;
+    }
+
+    .header{
+        padding: 45px;
+    }
+
+    .header .headerbody {
+        margin-right: 0;
+        margin: auto;
+        width: 100%;
+        height: 75%;
+    }
+
+    .choose {
+        width: 95%;
+
+    }
+
+    .categories .container {
+        margin: 0;
+        padding: 0;
+    }
+
+    .client .clientbody .card {
+        margin-bottom: 20px;
+    }
+
+    .aboutbody{
+        padding-left: 0;
+        padding: 40px;
+    }
+    .aboutbody button{
+        width: 45%;
+    }
+
+    .question {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .question p {
+        font-size: 20px;
+    }
+
+    .question a i {
+        font-size: 17px;
+    }
+
+    .question a span {
+        font-size: 20px;
+    }
+
+    .question button {
+        margin-top: 30px;
+        padding: 8px;
+        font-size: 13px;
+        width: 37%;
+    }
+
+    .footer {
+        padding: 20px;
+    }
+
+    .footer .abutrentel {
+        padding: 10px;
+    }
+
+    .footer .contactinfo {
+        padding: 10px;
+    }
+
+    .footer .serices {
+        padding: 10px;
+    }
+
+    .footer .network {
+        padding: 10px;
+    }
+
+    .network .logo {
+        margin: 20px 0px;
+    }
+
+    .footer .footer1 .logo {
+        justify-content: flex-start;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width:992px) {
+
+    .navbar .navbar-text span{
+        margin-right: 20px;
+    }
+
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header .headerbody{
+        margin-right: 0;
+        width: 70%;
+    }
+
+    .choose{
+        width: 100%;
+    }
+
+    .vechilebody{
+        width: 100%;
+    }
+
+    .client .clientbody .card{
+        margin-bottom: 20px;
+    }
+
+    .aboutbody{
+        padding-left: 0;
+        padding: 40px;
+    }
+
+    .question{
+        text-align: center;
+    }
+    .question p{
+        font-size: 30px;
+    }
+    .question a span{
+        font-size: 30px;
+    }
+    .question button{
+        width: 40%;
+        margin-top: 20px;
+    }
+    .footer{
+        padding: 15px;
+    }
+}
